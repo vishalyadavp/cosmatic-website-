@@ -1,0 +1,193 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navigation Bar */
+header {
+  background: #fff;
+  padding: 1em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.1em;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Hero Section */
+.hero {
+  background: url('images/hero-image.jpg') no-repeat center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.3em;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+/* Products Section */
+.products {
+  padding: 2em;
+  text-align: center;
+  background-color: #fff;
+}
+
+.product-card {
+  display: inline-block;
+  width: 30%;
+  margin: 1em;
+  background: white;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product-card h3 {
+  margin-top: 1em;
+}
+
+.product-card p {
+  font-size: 0.9em;
+}
+
+.price {
+  font-weight: bold;
+  color: #333;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+/* Testimonials Section */
+.testimonials {
+  background: #f9f9f9;
+  padding: 2em;
+  text-align: center;
+}
+
+.testimonial {
+  margin: 1em 0;
+}
+
+.testimonial p {
+  font-size: 1.1em;
+}
+
+.author {
+  font-style: italic;
+  margin-top: 5px;
+}
+
+/* Newsletter Section */
+.newsletter {
+  padding: 2em;
+  text-align: center;
+  background-color: #fff;
+}
+
+.newsletter form {
+  margin-top: 10px;
+}
+
+.newsletter input {
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+/* Footer Section */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .social-links {
+  display: flex;
+}
+
+footer .social-links a {
+  margin-left: 10px;
+}
+
+footer img {
+  width: 24px;
+}
+
+footer p {
+  margin-top: 10px;
+}
